@@ -366,8 +366,8 @@
     <Element Category="Remove - Drivers" Name="Network - Ethernet - NVIDIA" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Realtek" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Rivet Networks" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Network - Ethernet - SIS" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Network - Ethernet - VIA" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Network - Ethernet - SIS" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Network - Ethernet - VIA" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Virtual" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - ISDN - IBM" Selected="true" />
     <Element Category="Remove - Drivers" Name="Network - ISDN - Microsoft" Selected="false" />
@@ -1595,8 +1595,8 @@
     <Element Category="Services" Name="Windows Push Notifications User Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Windows SMS Router Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Windows Store Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Windows Store (Install) Service" Selected="true" Value="5" />
-    <Element Category="Services" Name="Windows Store (PushToInstall) Service" Selected="true" Value="5" />
+    <Element Category="Services" Name="Windows Store (Install) Service" Selected="false" Value="" />
+    <Element Category="Services" Name="Windows Store (PushToInstall) Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Time Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Windows Update Service" Selected="false" Value="" />
     <Element Category="Services" Name="Windows Update Medic Service" Selected="false" Value="" />
@@ -1631,7 +1631,7 @@
     <Element Category="System" Name="Local Temporary Folder" Selected="false" Value="" />
     <Element Category="System" Name="Windows Temporary Folder" Selected="false" Value="" />
     <Element Category="System" Name="OEM Prepared Folder" Selected="false" Value="" />
-    <Element Category="System" Name="OOBE Configuration" Selected="true" Value="C:\WinReducerEX110\WORK\INTEGRATE\SOFTWARE\WinReducerEX110PI.cmd" />
+    <Element Category="System" Name="OOBE Configuration" Selected="false" Value="" />
     <Element Category="System" Name="WinReducer Registry Integrator" Selected="false" Value="" />
     <Element Category="Unattended" Name="Activate" Selected="false" />
     <Element Category="Unattended" Name="Accept EULA" Selected="false" />
