@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.9.5.0</Version>
-  <Date>Sat 02 Nov 2024 5:21:45 PM</Date>
+  <Date>3.11.2024. 7:37:54</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="false" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="false" Value="" />
@@ -51,7 +51,7 @@
     <Element Category="Features" Name="Data Center Bridging (DCB)" Selected="true" Value="3" />
     <Element Category="Features" Name="Direct Play" Selected="false" Value="" />
     <Element Category="Features" Name="Host Guardian" Selected="true" Value="3" />
-    <Element Category="Features" Name="Hyper-V" Selected="true" Value="3" />
+    <Element Category="Features" Name="Hyper-V" Selected="false" Value="" />
     <Element Category="Features" Name="Internet Explorer 11" Selected="true" Value="3" />
     <Element Category="Features" Name="Internet Information Services (IIS)" Selected="true" Value="3" />
     <Element Category="Features" Name="Microsoft Message Queuing (MSMQ)" Selected="true" Value="3" />
@@ -76,8 +76,8 @@
     <Element Category="Features" Name="Windows PowerShell" Selected="false" Value="" />
     <Element Category="Features" Name="Windows Sandbox" Selected="true" Value="3" />
     <Element Category="Features" Name="Windows Search" Selected="false" Value="" />
-    <Element Category="Features" Name="Windows Subsystem for Linux" Selected="true" Value="3" />
-    <Element Category="Features" Name="Work Folders" Selected="false" Value="3" />
+    <Element Category="Features" Name="Windows Subsystem for Linux" Selected="false" Value="" />
+    <Element Category="Features" Name="Work Folders" Selected="false" Value="" />
     <Element Category="Features" Name="XPS Viewer and Printer" Selected="true" Value="3" />
     <Element Category="Remove - Accessories" Name="16-bit Support" Selected="true" />
     <Element Category="Remove - Accessories" Name="Adaptive Cards" Selected="true" />
@@ -332,22 +332,22 @@
     <Element Category="Remove - Drivers" Name="Game - Xbox360 Controller" Selected="false" />
     <Element Category="Remove - Drivers" Name="Game - Xbox One Controller" Selected="false" />
     <Element Category="Remove - Drivers" Name="Hyper-V - Controller" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Crash Dump" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Data Exchange" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Dynamic Memory" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Fibre Channel HBA" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Generation Counter" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card (RemoteFX vGPU)" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Input" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Keyboard" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Network" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - PCI Bus" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Shutdown" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Storage" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Time Synchronization" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Virtualization Infrastructure" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - VMBus" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Crash Dump" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Data Exchange" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Dynamic Memory" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Fibre Channel HBA" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Generation Counter" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card (RemoteFX vGPU)" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Input" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Keyboard" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Network" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - PCI Bus" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Shutdown" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Storage" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Time Synchronization" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Virtualization Infrastructure" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - VMBus" Selected="false" />
     <Element Category="Remove - Drivers" Name="Modem (All)" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Discovery Protocol" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Topology Mapper IO Mapper" Selected="false" />
@@ -647,44 +647,44 @@
     <Element Category="Remove - Keyboards" Name="Yoruba" Selected="false" Value="046a" />
     <Element Category="Remove - Keyboards" Name="Various Keyboards" Selected="false" Value="" />
     <Element Category="Remove - Languages" Name="Language Pack Support" Selected="false" Value="" />
-    <Element Category="Remove - Languages" Name="Bulgaria" Selected="true" Value="bg-BG" />
-    <Element Category="Remove - Languages" Name="Brazil" Selected="true" Value="pt-BR" />
-    <Element Category="Remove - Languages" Name="Canada" Selected="true" Value="fr-CA" />
-    <Element Category="Remove - Languages" Name="China (HK)" Selected="true" Value="zh-HK" />
-    <Element Category="Remove - Languages" Name="China (S)" Selected="true" Value="zh-CN" />
-    <Element Category="Remove - Languages" Name="China (T)" Selected="true" Value="zh-TW" />
-    <Element Category="Remove - Languages" Name="Croatia" Selected="true" Value="hr-HR" />
-    <Element Category="Remove - Languages" Name="Czech Republic" Selected="true" Value="cs-CZ" />
-    <Element Category="Remove - Languages" Name="Denmark" Selected="true" Value="da-DK" />
-    <Element Category="Remove - Languages" Name="Estonia" Selected="true" Value="et-EE" />
-    <Element Category="Remove - Languages" Name="Finland" Selected="true" Value="fi-FI" />
-    <Element Category="Remove - Languages" Name="France" Selected="true" Value="fr-FR" />
-    <Element Category="Remove - Languages" Name="Germany" Selected="true" Value="de-DE" />
-    <Element Category="Remove - Languages" Name="Greece" Selected="true" Value="el-GR" />
-    <Element Category="Remove - Languages" Name="Hungary" Selected="true" Value="hu-HU" />
-    <Element Category="Remove - Languages" Name="Israel" Selected="true" Value="he-IL" />
-    <Element Category="Remove - Languages" Name="Italy" Selected="true" Value="it-IT" />
-    <Element Category="Remove - Languages" Name="Japan" Selected="true" Value="ja-JP" />
-    <Element Category="Remove - Languages" Name="Korea" Selected="true" Value="ko-KR" />
-    <Element Category="Remove - Languages" Name="Latvia" Selected="true" Value="lv-LV" />
-    <Element Category="Remove - Languages" Name="Lithuania" Selected="true" Value="lt-LT" />
-    <Element Category="Remove - Languages" Name="Mexico" Selected="true" Value="es-MX" />
-    <Element Category="Remove - Languages" Name="Norway" Selected="true" Value="nb-NO" />
-    <Element Category="Remove - Languages" Name="Netherlands" Selected="true" Value="nl-NL" />
-    <Element Category="Remove - Languages" Name="Poland" Selected="true" Value="pl-PL" />
-    <Element Category="Remove - Languages" Name="Portugal" Selected="true" Value="pt-PT" />
-    <Element Category="Remove - Languages" Name="Romania" Selected="true" Value="ro-RO" />
-    <Element Category="Remove - Languages" Name="Russia" Selected="true" Value="ru-RU" />
-    <Element Category="Remove - Languages" Name="Saudi Arabia" Selected="true" Value="ar-SA" />
-    <Element Category="Remove - Languages" Name="Serbia" Selected="true" Value="sr-Latn-CS" />
-    <Element Category="Remove - Languages" Name="Slovakia" Selected="true" Value="sk-SK" />
-    <Element Category="Remove - Languages" Name="Slovenia" Selected="true" Value="sl-SI" />
-    <Element Category="Remove - Languages" Name="Spain" Selected="true" Value="es-ES" />
-    <Element Category="Remove - Languages" Name="Sweden" Selected="true" Value="sv-SE" />
-    <Element Category="Remove - Languages" Name="Thailand" Selected="true" Value="th-TH" />
-    <Element Category="Remove - Languages" Name="Turkey" Selected="true" Value="tr-TR" />
-    <Element Category="Remove - Languages" Name="Ukraine" Selected="true" Value="uk-UA" />
-    <Element Category="Remove - Languages" Name="United Kingdom" Selected="true" Value="en-GB" />
+    <Element Category="Remove - Languages" Name="Bulgaria" Selected="false" Value="bg-BG" />
+    <Element Category="Remove - Languages" Name="Brazil" Selected="false" Value="pt-BR" />
+    <Element Category="Remove - Languages" Name="Canada" Selected="false" Value="fr-CA" />
+    <Element Category="Remove - Languages" Name="China (HK)" Selected="false" Value="zh-HK" />
+    <Element Category="Remove - Languages" Name="China (S)" Selected="false" Value="zh-CN" />
+    <Element Category="Remove - Languages" Name="China (T)" Selected="false" Value="zh-TW" />
+    <Element Category="Remove - Languages" Name="Croatia" Selected="false" Value="hr-HR" />
+    <Element Category="Remove - Languages" Name="Czech Republic" Selected="false" Value="cs-CZ" />
+    <Element Category="Remove - Languages" Name="Denmark" Selected="false" Value="da-DK" />
+    <Element Category="Remove - Languages" Name="Estonia" Selected="false" Value="et-EE" />
+    <Element Category="Remove - Languages" Name="Finland" Selected="false" Value="fi-FI" />
+    <Element Category="Remove - Languages" Name="France" Selected="false" Value="fr-FR" />
+    <Element Category="Remove - Languages" Name="Germany" Selected="false" Value="de-DE" />
+    <Element Category="Remove - Languages" Name="Greece" Selected="false" Value="el-GR" />
+    <Element Category="Remove - Languages" Name="Hungary" Selected="false" Value="hu-HU" />
+    <Element Category="Remove - Languages" Name="Israel" Selected="false" Value="he-IL" />
+    <Element Category="Remove - Languages" Name="Italy" Selected="false" Value="it-IT" />
+    <Element Category="Remove - Languages" Name="Japan" Selected="false" Value="ja-JP" />
+    <Element Category="Remove - Languages" Name="Korea" Selected="false" Value="ko-KR" />
+    <Element Category="Remove - Languages" Name="Latvia" Selected="false" Value="lv-LV" />
+    <Element Category="Remove - Languages" Name="Lithuania" Selected="false" Value="lt-LT" />
+    <Element Category="Remove - Languages" Name="Mexico" Selected="false" Value="es-MX" />
+    <Element Category="Remove - Languages" Name="Norway" Selected="false" Value="nb-NO" />
+    <Element Category="Remove - Languages" Name="Netherlands" Selected="false" Value="nl-NL" />
+    <Element Category="Remove - Languages" Name="Poland" Selected="false" Value="pl-PL" />
+    <Element Category="Remove - Languages" Name="Portugal" Selected="false" Value="pt-PT" />
+    <Element Category="Remove - Languages" Name="Romania" Selected="false" Value="ro-RO" />
+    <Element Category="Remove - Languages" Name="Russia" Selected="false" Value="ru-RU" />
+    <Element Category="Remove - Languages" Name="Saudi Arabia" Selected="false" Value="ar-SA" />
+    <Element Category="Remove - Languages" Name="Serbia" Selected="false" Value="sr-Latn-CS" />
+    <Element Category="Remove - Languages" Name="Slovakia" Selected="false" Value="sk-SK" />
+    <Element Category="Remove - Languages" Name="Slovenia" Selected="false" Value="sl-SI" />
+    <Element Category="Remove - Languages" Name="Spain" Selected="false" Value="es-ES" />
+    <Element Category="Remove - Languages" Name="Sweden" Selected="false" Value="sv-SE" />
+    <Element Category="Remove - Languages" Name="Thailand" Selected="false" Value="th-TH" />
+    <Element Category="Remove - Languages" Name="Turkey" Selected="false" Value="tr-TR" />
+    <Element Category="Remove - Languages" Name="Ukraine" Selected="false" Value="uk-UA" />
+    <Element Category="Remove - Languages" Name="United Kingdom" Selected="false" Value="en-GB" />
     <Element Category="Remove - Languages" Name="United States" Selected="DEFAULT" Value="en-US" />
     <Element Category="EXPERIMENTAL - Remove - Languages" Name="National Language Support (Arabic)" Selected="false" Value="" />
     <Element Category="EXPERIMENTAL - Remove - Languages" Name="National Language Support (Baltic)" Selected="false" Value="" />
@@ -799,7 +799,7 @@
     <Element Category="Remove - Modern UI Apps" Name="Windows Terminal" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Xbox LIVE Games" Selected="false" />
     <Element Category="Remove - Modern UI Apps" Name="Xbox LIVE Games (Game Overlay)" Selected="false" />
-    <Element Category="Remove - Modern UI Apps" Name="Xbox LIVE Games (Identity Provider)" Selected="false" />
+    <Element Category="Remove - Modern UI Apps" Name="Xbox LIVE Games (Identity Provider)" Selected="true" />
     <Element Category="Remove - Modern UI Apps" Name="Xbox LIVE Games (In-Game Experience)" Selected="false" />
     <Element Category="Remove - Modern UI Apps" Name="Xbox LIVE Games (Speech to Text Overlay)" Selected="false" />
     <Element Category="Remove - Modern UI Apps" Name="Your Phone" Selected="true" />
@@ -1502,7 +1502,7 @@
     <Element Category="Services" Name="Graphics Performance Service" Selected="false" Value="" />
     <Element Category="Services" Name="HomeGroup Listener and Provider Services" Selected="false" Value="" />
     <Element Category="Services" Name="Human Interface Device (HID) Service" Selected="false" Value="" />
-    <Element Category="Services" Name="HyperV Services" Selected="true" Value="5" />
+    <Element Category="Services" Name="HyperV Services" Selected="false" Value="" />
     <Element Category="Services" Name="Infrared Monitor Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Internet Connection Sharing (ICS) Service" Selected="false" Value="" />
     <Element Category="Services" Name="IP Translation Configuration Service" Selected="false" Value="" />
@@ -1604,7 +1604,7 @@
     <Element Category="Services" Name="Wired AutoConfig Service" Selected="false" Value="" />
     <Element Category="Services" Name="Workstation Service" Selected="false" Value="" />
     <Element Category="Services" Name="WLAN AutoConfig Service" Selected="false" Value="" />
-    <Element Category="Services" Name="Work Folders Service" Selected="false" Value="5" />
+    <Element Category="Services" Name="Work Folders Service" Selected="false" Value="" />
     <Element Category="Services" Name="WWAN AutoConfig Service" Selected="true" Value="3" />
     <Element Category="Services" Name="WWAN (Local Profile Assistant) Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Xbox Accessory Management Service" Selected="false" Value="" />
@@ -1685,7 +1685,7 @@
     <Element Category="Presets" Name="Protect Windows Update" Selected="false" />
     <Element Category="WinReducer Options" Name="Detailed LOG file" Selected="true" />
     <Element Category="WinReducer Options" Name="Removing Speed" Selected="true" Value="3" />
-    <Element Category="WinReducer Options" Name="ISO File Creator (Save in a WIM File)" Selected="true" Folder="C:\New folder" SplitSize="4000" UEFIBoot="UEFI &amp; BIOS" FolderTransfert="" />
+    <Element Category="WinReducer Options" Name="ISO File Creator (Save in a WIM File)" Selected="true" Folder="C:\New folder" SplitSize="40000" UEFIBoot="UEFI &amp; BIOS" FolderTransfert="" />
     <Element Category="WinReducer Options" Name="ISO File Creator (Save in an ISO File)" Selected="false" Folder="" ISOName="" ISOLabel="" UEFIBoot="" />
     <Element Category="WinReducer Options" Name="Shutdown computer when finished" Selected="false" />
     <Element Category="WinReducer Options" Name="Standby computer when finished" Selected="false" />
