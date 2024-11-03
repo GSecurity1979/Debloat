@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/31/2024 17:59:17</Date>
+	<Date>11/03/2024 06:56:29</Date>
 	<AppInfo>
 		<Version>2024.10.10089</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1 (en-US)</Host>
+		<Host>Windows 10 EnterpriseS 1809 x64 - 10.0.17763.316 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2033 (en-US)</Version>
-		<GUID>{FB77DC77-5C6B-4516-BB84-F8152F35146A}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
+		<GUID>{D4B42BEF-2A12-12C3-BB62-2DF8C9BA8BCF}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>hypervguest 'Hyper-V Integration Services'</c>
@@ -70,7 +70,13 @@
 	</Compatibility>
 	<Features>
 		<Feature name="DirectPlay">true</Feature>
+		<Feature name="HostGuardian">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
+		<Feature name="Microsoft-Hyper-V">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
+		<Feature name="Microsoft-Hyper-V-All">true</Feature>
 		<Feature name="LegacyComponents">true</Feature>
+		<Feature name="Microsoft-Windows-Subsystem-Linux">true</Feature>
 	</Features>
 	<Packages>
 		<Options>
@@ -107,7 +113,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/INDEX</Key>
-								<Value>5</Value>
+								<Value>1</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -202,7 +208,6 @@
 				<Tweak name="Personalization\NoLockScreen">1</Tweak>
 				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
 				<Tweak name="System\EnableLinkedConnections">1</Tweak>
-				<Tweak name="OOBE\BypassNRO">1</Tweak>
 				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
 				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
 				<Tweak name="MoSetup\AllowUpgradesWithUnsupportedTPMOrCPU">1</Tweak>
