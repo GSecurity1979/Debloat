@@ -348,7 +348,7 @@
     <Element Category="Remove - Drivers" Name="Hyper-V - Time Synchronization" Selected="true" />
     <Element Category="Remove - Drivers" Name="Hyper-V - Virtualization Infrastructure" Selected="true" />
     <Element Category="Remove - Drivers" Name="Hyper-V - VMBus" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Modem (All)" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Modem (All)" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Discovery Protocol" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Topology Mapper IO Mapper" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Topology Responder" Selected="false" />
