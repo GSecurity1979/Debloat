@@ -1,18 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/03/2024 06:56:29</Date>
+	<Date>11/04/2024 22:25:28</Date>
 	<AppInfo>
 		<Version>2024.10.10089</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 EnterpriseS 1809 x64 - 10.0.17763.316 (en-US)</Host>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
-		<GUID>{D4B42BEF-2A12-12C3-BB62-2DF8C9BA8BCF}</GUID>
+		<GUID>{1DBEFB7C-E51C-888B-55BF-7338CA2A830B}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
+		<c>clipchamp.clipchamp</c>
 		<c>hypervguest 'Hyper-V Integration Services'</c>
+		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.bingsearch 'Microsoft Bing Search'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.microsoftofficehub 'Microsoft 365 (Office)'</c>
+		<c>microsoft.microsoftsolitairecollection 'Solitaire &amp; Casual Games'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.outlookforwindows 'Outlook for Windows'</c>
+		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
+		<c>microsoft.screensketch 'Snipping Tool'</c>
+		<c>microsoft.sechealthui 'Windows Defender'</c>
+		<c>microsoft.todos 'Microsoft To Do'</c>
+		<c>microsoft.windows.devhome 'Dev Home'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windowsalarms 'Windows Clock'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
+		<c>microsoft.windowsterminal 'Windows Terminal'</c>
+		<c>microsoft.yourphone 'Phone Link'</c>
+		<c>microsoft.zunemusic 'Windows Media Player'</c>
+		<c>microsoftcorporationii.microsoftfamily 'Microsoft Family'</c>
+		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
+		<c>microsoftwindows.crossdevice 'Cross Device Experience Host'</c>
+		<c>msteams 'Microsoft Teams'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="false">
 		<ComponentFeatures>
@@ -210,7 +237,6 @@
 				<Tweak name="System\EnableLinkedConnections">1</Tweak>
 				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
 				<Tweak name="LabConfig\BypassTPMCheck">1</Tweak>
-				<Tweak name="MoSetup\AllowUpgradesWithUnsupportedTPMOrCPU">1</Tweak>
 				<Tweak name="System\VerboseStatus">1</Tweak>
 				<Tweak name="DeviceGuard\EnableVirtualizationBasedSecurity">0</Tweak>
 				<Tweak name="WinRE\UninstallWindowsRE">1</Tweak>
