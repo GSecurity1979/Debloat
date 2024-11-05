@@ -1,26 +1,25 @@
-﻿﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>05/15/2024 07:39</Date>
+	<Date>11/05/2024 14:23</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro 64-bit - Client 10.0.22621.1 (en-US) - en-US</Host>
+		<Host>Windows 10 Pro 64-bit - Client 10.0.26100.1 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.22621.2861 (en-US)</Version>
-		<GUID>{DA27ABB5-4BA2-47AB-A35A-6CD6DA5F67AB}</GUID>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.26100.1 (en-US)</Version>
+		<GUID>{C15CA4AD-9B15-42F8-8956-65E7635F3977}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>Clipchamp.Clipchamp</c>
 		<c>driver_xinputhid.inf</c>
-		<c>firstlogonanim 'Animacija kod prvog logiranja'</c>
-		<c>hwsupport_telephony 'Telefonija'</c>
+		<c>firstlogonanim 'First-logon animation'</c>
+		<c>hwsupport_telephony 'Telephony'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
 		<c>langarabic 'Arabic'</c>
 		<c>langbulgarian 'Bulgarian'</c>
 		<c>langchineses 'Chinese Simplified'</c>
-		<c>langcroatian 'Hrvatski'</c>
+		<c>langcroatian 'Croatian'</c>
 		<c>langczech 'Czech'</c>
 		<c>langdanish 'Danish'</c>
 		<c>langdutch 'Dutch'</c>
@@ -51,36 +50,25 @@
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
 		<c>manifests 'Windows Component Database'</c>
-		<c>manualsetup 'Ručni Setup'</c>
-		<c>Microsoft.MicrosoftSolitaireCollection 'MicrosoftSolitaireCollection'</c>
-		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
-		<c>Microsoft.PowerAutomateDesktop 'PowerAutomateDesktop'</c>
-		<c>Microsoft.ScreenSketch 'ScreenSketch'</c>
-		<c>Microsoft.Windows.Photos 'Photos'</c>
-		<c>Microsoft.WindowsAlarms 'WindowsAlarms'</c>
-		<c>Microsoft.WindowsCalculator 'WindowsCalculator'</c>
-		<c>Microsoft.WindowsCamera 'WindowsCamera'</c>
-		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
-		<c>Microsoft.WindowsTerminal 'WindowsTerminal'</c>
-		<c>onedrive 'OneDrive (SkyDrive) - Desktop'</c>
+		<c>onedrive</c>
 		<c>optionalfeatures 'Optional Features'</c>
 		<c>phonesvc 'Phone Service'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
 		<c>sfc 'System File Check (SFC)'</c>
-		<c>tempcache 'Cache i temp datoteke'</c>
-		<c>winre 'Windows oporavak'</c>
+		<c>tempcache 'Cache and temp files'</c>
+		<c>winre 'Windows Recovery'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
+			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">NetworkDiscovery</Feature>
 			<Feature enabled="yes">OOBE</Feature>
-			<Feature enabled="yes">AppxSupport</Feature>
-			<Feature enabled="no">Recommended-All</Feature>
 			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
 			<Feature enabled="yes">SamsungSwitch</Feature>
 			<Feature enabled="yes">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USB</Feature>
@@ -89,11 +77,10 @@
 			<Feature enabled="no">VisualStudio</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="yes">ActivationKMS</Feature>
-			<Feature enabled="yes">WLAN</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
-			<Machine enabled="no">Hyper-V VM</Machine>
 			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
 			<Machine enabled="no">Parallels VM</Machine>
 			<Machine enabled="no">Virtual Box VM</Machine>
 			<Machine enabled="no">VMware VM</Machine>
@@ -152,7 +139,7 @@
 	<Execution>
 		<Add>
 			<Item type="Placeholder">
-				<Index>0</Index>
+				<Index>10</Index>
 			</Item>
 		</Add>
 		<Change></Change>
