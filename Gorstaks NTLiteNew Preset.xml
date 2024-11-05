@@ -157,6 +157,11 @@
 		<Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="DirectPlay">true</Feature>
 		<Feature name="LegacyComponents">true</Feature>
+		<Feature name="HostGuardian">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
+		<Feature name="Microsoft-Hyper-V">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
+		<Feature name="Microsoft-Hyper-V-All">true</Feature>
 	</Features>
 	<Packages>
 		<Options>
