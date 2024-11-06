@@ -162,6 +162,7 @@
 		<Feature name="Microsoft-Hyper-V">true</Feature>
 		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
 		<Feature name="Microsoft-Hyper-V-All">true</Feature>
+		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
 	</Features>
 	<Packages>
 		<Options>

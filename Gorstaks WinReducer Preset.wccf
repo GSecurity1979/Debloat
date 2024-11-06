@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.9.5.0</Version>
-  <Date>5.11.2024. 14:27:25</Date>
+  <Date>05-11-2024 22:39:35</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
@@ -1314,7 +1314,7 @@
     <Element Category="Tweaks" Name="Modern UI - Apps - Settings - Windows Updates - Disable include driver updates" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Settings - Windows Updates - Disable shared downloads" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Apps - Settings - Windows Updates - Disable Windows Features Updates" Selected="false" />
-    <Element Category="Tweaks" Name="Modern UI - Apps - Settings - Use Dark Theme" Selected="true" />
+    <Element Category="Tweaks" Name="Modern UI - Apps - Settings - Use Dark Theme" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Hide Apps on the Desktop Taskbar" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Hide Power Button on Start Screen" Selected="false" />
     <Element Category="Tweaks" Name="Modern UI - Reduce Closing Speed for Modern UI Apps" Selected="false" />
