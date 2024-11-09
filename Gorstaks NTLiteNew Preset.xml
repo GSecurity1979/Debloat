@@ -1,148 +1,137 @@
-﻿﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>05/16/2024 00:33:36</Date>
+	<Date>11/09/2024 07:09:51</Date>
 	<AppInfo>
-		<Version>2024.5.9931</Version>
+		<Version>2024.10.10089</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 Professional 23H2 x64 - 10.0.22631.2861 (en-US)</Host>
+		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 23H2 x64 - 10.0.22631.2861 (en-US)</Version>
-		<GUID>{3711D27B-DA7B-4CF0-A5F0-78A19C246730}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2033 (en-US)</Version>
+		<GUID>{F16FD294-F7E1-47DD-A1B6-1B970920DBBF}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>assembly.net '.NET assembly cache'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
+		<c>clipchamp.clipchamp</c>
 		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
-		<c>enhancedstorage 'Enhanced Storage'</c>
 		<c>enterpriseclientsync 'Work Folders Client'</c>
 		<c>f46d4000-fd22-4db4-ac8e-4e1ddde828fe 'Add Folder Suggestions dialog'</c>
 		<c>fciclient 'File Server Resource Manager'</c>
 		<c>help 'Windows Help content'</c>
 		<c>helpsupport 'Help file support (CHM)'</c>
 		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
-		<c>hwsupport_scanner 'Scanner'</c>
-		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
 		<c>hypervguest 'Hyper-V Integration Services'</c>
 		<c>iis 'Internet Information Server (IIS)'</c>
 		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
-		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>la57 '57-bit Linear Addressing'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
-		<c>manualsetup 'Manual Setup'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
-		<c>microsoft.549981c3f5f10 'Cortana'</c>
 		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.bingsearch 'Microsoft Bing Search'</c>
 		<c>microsoft.bingweather 'MSN Weather'</c>
 		<c>microsoft.ecapp 'Eye Control'</c>
 		<c>microsoft.gethelp 'Get Help'</c>
-		<c>microsoft.getstarted 'Tips (Get Started)'</c>
 		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
-		<c>microsoft.microsoftofficehub 'Office'</c>
-		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.microsoftofficehub 'Microsoft 365 (Office)'</c>
+		<c>microsoft.microsoftsolitairecollection 'Solitaire &amp; Casual Games'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.outlookforwindows 'Outlook for Windows'</c>
+		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
 		<c>microsoft.sechealthui 'Windows Defender'</c>
 		<c>microsoft.todos 'Microsoft To Do'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
-		<c>microsoft.windows.callingshellapp 'Call'</c>
 		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
+		<c>microsoft.windows.devhome 'Dev Home'</c>
 		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
-		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft Family Safety'</c>
 		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
-		<c>microsoft.windows.printqueueactioncenter 'Print Queue'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
 		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
+		<c>microsoft.windowsalarms 'Windows Clock'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
+		<c>microsoft.windowscamera 'Windows Camera'</c>
 		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
-		<c>microsoft.windowsmaps 'Windows Maps'</c>
-		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
-		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
+		<c>microsoft.windowsterminal 'Windows Terminal'</c>
+		<c>microsoft.yourphone 'Phone Link'</c>
 		<c>microsoft.zunemusic 'Windows Media Player'</c>
-		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
-		<c>microsoftcorporationii.quickassist 'Brza pomoć'</c>
+		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
 		<c>microsoftwindows.client.webexperience 'Windows Web Experience Pack'</c>
-		<c>mobilepc</c>
 		<c>mobilepc_location 'Location notifications'</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
-		<c>mobilepc_sensors 'Sensors'</c>
+		<c>msteams 'Microsoft Teams'</c>
 		<c>multipointconnector 'MultiPoint Connector'</c>
-		<c>peertopeer 'Peer Networking'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
 		<c>printtopdf 'Print to PDF'</c>
 		<c>rdc 'Remote Differential Compression (RDC)'</c>
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
 		<c>remoteassistance 'Remote Assistance'</c>
-		<c>remotefx</c>
 		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
-		<c>rotationmanager 'Auto-Rotation Manager'</c>
 		<c>sharemediacpl 'Share Media Control Panel'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
-		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
-		<c>sourcessxsdir 'Manual feature repository'</c>
-		<c>stici 'Still Image Class Installer'</c>
-		<c>supportdir 'Support directory'</c>
-		<c>tabletpc 'Tablet PC'</c>
-		<c>textprediction 'Text prediction'</c>
 		<c>tftpclient 'TFTP client'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
 		<c>wallet 'Wallet Service'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
 		<c>windows.cbspreview 'Windows Barcode Preview'</c>
-		<c>windows.printdialog 'Windows Print'</c>
 		<c>windowstogo 'Windows To Go'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="false">
 		<ComponentFeatures>
-			<Feature enabled="no">AppGuard</Feature>
-			<Feature enabled="no">Battle.net</Feature>
+			<Feature enabled="yes">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
 			<Feature enabled="yes">YubiKey</Feature>
-			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">Bluetooth</Feature>
 			<Feature enabled="yes">USBCamera</Feature>
-			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
-			<Feature enabled="no">Hyper-V</Feature>
-			<Feature enabled="no">iCloud</Feature>
-			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="yes">iCloud</Feature>
+			<Feature enabled="yes">Kaspersky</Feature>
 			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">Netflix</Feature>
-			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
 			<Feature enabled="yes">NightLight</Feature>
 			<Feature enabled="yes">NvidiaSetup</Feature>
 			<Feature enabled="yes">OOBE</Feature>
-			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="yes">Printing</Feature>
 			<Feature enabled="yes">Recommended-All</Feature>
-			<Feature enabled="no">SamsungSwitch</Feature>
-			<Feature enabled="no">Scanning</Feature>
-			<Feature enabled="no">ServicingStack</Feature>
+			<Feature enabled="yes">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
 			<Feature enabled="yes">ShellSearchSupport</Feature>
 			<Feature enabled="yes">Spotify</Feature>
-			<Feature enabled="no">SFC</Feature>
+			<Feature enabled="yes">SFC</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
-			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">SafeMode</Feature>
 			<Feature enabled="yes">TeamViewer</Feature>
-			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USBModem</Feature>
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
 			<Feature enabled="yes">VPN</Feature>
 			<Feature enabled="yes">VisualStudio</Feature>
-			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">VSS</Feature>
 			<Feature enabled="yes">ActivationKMS</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="yes">WinSetup</Feature>
 			<Feature enabled="yes">WindowsStore</Feature>
-			<Feature enabled="no">WindowsUpdate</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
 			<Feature enabled="yes">WLAN</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
@@ -154,14 +143,13 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
-		<Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="DirectPlay">true</Feature>
-		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="HostGuardian">true</Feature>
 		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
 		<Feature name="Microsoft-Hyper-V">true</Feature>
 		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
 		<Feature name="Microsoft-Hyper-V-All">true</Feature>
+		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
 	</Features>
 	<Packages>
@@ -199,7 +187,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/INDEX</Key>
-								<Value>6</Value>
+								<Value>1</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -219,12 +207,10 @@
 				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
-				<Tweak name="Explorer\EnableAutoTray">0</Tweak>
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
 				<Tweak name="Advanced\UseCompactMode">1</Tweak>
 				<Tweak name="Advanced\HideFileExt">0</Tweak>
 				<Tweak name="Advanced\Hidden">1</Tweak>
-				<Tweak name="Advanced\ShowSuperHidden">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Network">
 				<Tweak name="Main\Isolation64Bit">1</Tweak>
@@ -237,7 +223,6 @@
 				<Tweak name="System\AllowExperimentation">0</Tweak>
 				<Tweak name="System\AllowLocation">1</Tweak>
 				<Tweak name="DataCollection\AllowTelemetry">4</Tweak>
-				<Tweak name="ContentDeliveryManager\SilentInstalledAppsEnabled">0</Tweak>
 				<Tweak name="System\AllowClipboardHistory">0</Tweak>
 				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
 				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
@@ -251,7 +236,6 @@
 				<Tweak name="Configuration\DisableResetbase">0</Tweak>
 				<Tweak name="Personalization\NoLockScreen">1</Tweak>
 				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
-				<Tweak name="GameConfigStore\GameDVR_FSEBehavior">0</Tweak>
 				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
 				<Tweak name="System\EnableLinkedConnections">0</Tweak>
 				<Tweak name="OOBE\BypassNRO">1</Tweak>
@@ -261,7 +245,6 @@
 				<Tweak name="EdgeUpdate\EdgeUpdate">0</Tweak>
 				<Tweak name="IA\IA">0</Tweak>
 				<Tweak name="LXP\LXP">0</Tweak>
-				<Tweak name="MACUpdate\MACUpdate">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="UAC">
 				<Tweak name="System\FilterAdministratorToken">1</Tweak>

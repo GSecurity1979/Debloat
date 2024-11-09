@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/05/2024 14:23</Date>
+	<Date>11/09/2024 07:17</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 10 Pro 64-bit - Client 10.0.26100.1 (en-US) - en-US</Host>
+		<Host>Windows 10 IoT Enterprise LTSC 2024 64-bit - Client 10.0.26100.1 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.26100.1 (en-US)</Version>
-		<GUID>{C15CA4AD-9B15-42F8-8956-65E7635F3977}</GUID>
+		<Version mode="offline">Windows 10 Pro 64-bit - Client 10.0.26100.2033 (en-US)</Version>
+		<GUID>{660A442F-CD40-44B2-8495-622C1E0A46B2}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
 		<c>driver_xinputhid.inf</c>
@@ -63,7 +63,8 @@
 		<ComponentFeatures>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
-			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">NetworkDiscovery</Feature>
 			<Feature enabled="yes">OOBE</Feature>
@@ -74,16 +75,16 @@
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="yes">USBModem</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
-			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
 			<Feature enabled="yes">Activation</Feature>
 			<Feature enabled="yes">ActivationKMS</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
 			<Machine enabled="yes">HostMachine</Machine>
-			<Machine enabled="no">Hyper-V VM</Machine>
-			<Machine enabled="no">Parallels VM</Machine>
-			<Machine enabled="no">Virtual Box VM</Machine>
-			<Machine enabled="no">VMware VM</Machine>
+			<Machine enabled="yes">Hyper-V VM</Machine>
+			<Machine enabled="yes">Parallels VM</Machine>
+			<Machine enabled="yes">Virtual Box VM</Machine>
+			<Machine enabled="yes">VMware VM</Machine>
 		</MachineDrivers>
 	</Compatibility>
 	<Features></Features>
@@ -107,7 +108,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/NAME</Key>
-								<Value>Windows 11 Pro</Value>
+								<Value>Gorstaks 11</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
