@@ -3,7 +3,7 @@
 <Packages>
   <WinReducerEX>110</WinReducerEX>
   <Version>v3.9.5.0</Version>
-  <Date>05-11-2024 22:39:35</Date>
+  <Date>11/11/2024 2:59:31 AM</Date>
   <Components>
     <Element Category="Appearance" Name="Activate Desktop Context Menu" Selected="true" Value="" />
     <Element Category="Appearance" Name="Safe Mode" Selected="true" Value="Safe Mode" />
@@ -51,7 +51,7 @@
     <Element Category="Features" Name="Data Center Bridging (DCB)" Selected="true" Value="3" />
     <Element Category="Features" Name="Direct Play" Selected="false" Value="" />
     <Element Category="Features" Name="Host Guardian" Selected="true" Value="3" />
-    <Element Category="Features" Name="Hyper-V" Selected="false" Value="" />
+    <Element Category="Features" Name="Hyper-V" Selected="true" Value="3" />
     <Element Category="Features" Name="Internet Explorer 11" Selected="true" Value="3" />
     <Element Category="Features" Name="Internet Information Services (IIS)" Selected="true" Value="3" />
     <Element Category="Features" Name="Microsoft Message Queuing (MSMQ)" Selected="true" Value="3" />
@@ -325,29 +325,29 @@
     <Element Category="Remove - Drivers" Name="Display - Miracast (Wireless Display)" Selected="false" />
     <Element Category="Remove - Drivers" Name="Display - Mirror" Selected="true" />
     <Element Category="Remove - Drivers" Name="File System - ExFAT" Selected="false" />
-    <Element Category="Remove - Drivers" Name="File System - ProjFS" Selected="false" />
+    <Element Category="Remove - Drivers" Name="File System - ProjFS" Selected="true" />
     <Element Category="Remove - Drivers" Name="File System - ReFS" Selected="false" />
     <Element Category="Remove - Drivers" Name="Floppy Disk" Selected="true" />
     <Element Category="Remove - Drivers" Name="Game - Gameport" Selected="true" />
     <Element Category="Remove - Drivers" Name="Game - Xbox360 Controller" Selected="true" />
     <Element Category="Remove - Drivers" Name="Game - Xbox One Controller" Selected="true" />
     <Element Category="Remove - Drivers" Name="Hyper-V - Controller" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Crash Dump" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Data Exchange" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Dynamic Memory" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Fibre Channel HBA" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Generation Counter" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card (RemoteFX vGPU)" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Input" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Keyboard" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Network" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - PCI Bus" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Shutdown" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Storage" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Time Synchronization" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - Virtualization Infrastructure" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Hyper-V - VMBus" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Crash Dump" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Data Exchange" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Dynamic Memory" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Fibre Channel HBA" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Generation Counter" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Graphic Card (RemoteFX vGPU)" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Input" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Keyboard" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Network" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - PCI Bus" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Shutdown" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Storage" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Time Synchronization" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - Virtualization Infrastructure" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Hyper-V - VMBus" Selected="true" />
     <Element Category="Remove - Drivers" Name="Modem (All)" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Discovery Protocol" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Link-Layer Topology Mapper IO Mapper" Selected="false" />
@@ -363,11 +363,11 @@
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Mellanox" Selected="true" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Microchip" Selected="true" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Microsoft" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Network - Ethernet - NVIDIA" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Network - Ethernet - NVIDIA" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Realtek" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Rivet Networks" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Network - Ethernet - SIS" Selected="true" />
-    <Element Category="Remove - Drivers" Name="Network - Ethernet - VIA" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Network - Ethernet - SIS" Selected="false" />
+    <Element Category="Remove - Drivers" Name="Network - Ethernet - VIA" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - Ethernet - Virtual" Selected="false" />
     <Element Category="Remove - Drivers" Name="Network - ISDN - IBM" Selected="true" />
     <Element Category="Remove - Drivers" Name="Network - ISDN - Microsoft" Selected="false" />
@@ -453,7 +453,7 @@
     <Element Category="Remove - Drivers" Name="Support - NVM Express" Selected="false" />
     <Element Category="Remove - Drivers" Name="Support - PC Card" Selected="false" />
     <Element Category="Remove - Drivers" Name="Support - Pcmcia" Selected="false" />
-    <Element Category="Remove - Drivers" Name="Support - Point Of Service (POS) Barcode Scanner" Selected="true" />
+    <Element Category="Remove - Drivers" Name="Support - Point Of Service (POS) Barcode Scanner" Selected="false" />
     <Element Category="Remove - Drivers" Name="Support - Point Of Service (POS) Cash Drawer" Selected="true" />
     <Element Category="Remove - Drivers" Name="Support - Point Of Service (POS) OPOS Bridge" Selected="true" />
     <Element Category="Remove - Drivers" Name="Support - Point Of Service (POS) Receipt Printer" Selected="true" />
@@ -1502,7 +1502,7 @@
     <Element Category="Services" Name="Graphics Performance Service" Selected="false" Value="" />
     <Element Category="Services" Name="HomeGroup Listener and Provider Services" Selected="false" Value="" />
     <Element Category="Services" Name="Human Interface Device (HID) Service" Selected="false" Value="" />
-    <Element Category="Services" Name="HyperV Services" Selected="false" Value="" />
+    <Element Category="Services" Name="HyperV Services" Selected="true" Value="5" />
     <Element Category="Services" Name="Infrared Monitor Service" Selected="true" Value="3" />
     <Element Category="Services" Name="Internet Connection Sharing (ICS) Service" Selected="false" Value="" />
     <Element Category="Services" Name="IP Translation Configuration Service" Selected="false" Value="" />
