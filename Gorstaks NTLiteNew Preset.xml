@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/09/2024 07:09:51</Date>
+	<Date>11/11/2024 02:50:36</Date>
 	<AppInfo>
 		<Version>2024.10.10089</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1 (en-US)</Host>
+		<Host>Windows 11 Professional 22H2 x64 - 10.0.22621.1 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2033 (en-US)</Version>
-		<GUID>{F16FD294-F7E1-47DD-A1B6-1B970920DBBF}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
+		<GUID>{C0F44854-A652-89BD-91B7-F9F45AB608FC}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>appv 'Application Virtualization (App-V)'</c>
@@ -144,11 +144,6 @@
 	</Compatibility>
 	<Features>
 		<Feature name="DirectPlay">true</Feature>
-		<Feature name="HostGuardian">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
-		<Feature name="Microsoft-Hyper-V">true</Feature>
-		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
-		<Feature name="Microsoft-Hyper-V-All">true</Feature>
 		<Feature name="LegacyComponents">true</Feature>
 		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
 	</Features>
