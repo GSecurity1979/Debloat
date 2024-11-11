@@ -63,7 +63,7 @@
 		<ComponentFeatures>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
-			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
 			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">NetworkDiscovery</Feature>
