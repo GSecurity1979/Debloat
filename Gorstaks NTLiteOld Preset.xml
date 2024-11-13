@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/09/2024 07:17</Date>
+	<Date>11/12/2024 12:21</Date>
 	<AppInfo>
 		<Version>1.5.0.5855</Version>
 		<Licensed>Yes</Licensed>
@@ -8,10 +8,11 @@
 		<Host>Windows 10 IoT Enterprise LTSC 2024 64-bit - Client 10.0.26100.1 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 10 Pro 64-bit - Client 10.0.26100.2033 (en-US)</Version>
-		<GUID>{660A442F-CD40-44B2-8495-622C1E0A46B2}</GUID>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.26100.1 (en-US)</Version>
+		<GUID>{7C2D8796-AA3E-422B-B9F2-340846D6AF74}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
+		<c>devicesync 'Microsoft Sync Framework'</c>
 		<c>driver_xinputhid.inf</c>
 		<c>firstlogonanim 'First-logon animation'</c>
 		<c>hwsupport_telephony 'Telephony'</c>
@@ -50,21 +51,23 @@
 		<c>langturkish 'Turkish'</c>
 		<c>langukrainian 'Ukrainian'</c>
 		<c>manifests 'Windows Component Database'</c>
+		<c>offlinefiles 'Offline Files'</c>
 		<c>onedrive</c>
+		<c>onesyncsvc 'Sync Host'</c>
 		<c>optionalfeatures 'Optional Features'</c>
 		<c>phonesvc 'Phone Service'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
 		<c>sfc 'System File Check (SFC)'</c>
+		<c>synccenter 'Sync Center'</c>
 		<c>tempcache 'Cache and temp files'</c>
 		<c>winre 'Windows Recovery'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
-			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="no">AppxSupport</Feature>
 			<Feature enabled="yes">DefaultFonts</Feature>
 			<Feature enabled="no">Hyper-V</Feature>
-			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">NetworkDiscovery</Feature>
 			<Feature enabled="yes">OOBE</Feature>
@@ -73,7 +76,7 @@
 			<Feature enabled="yes">SamsungSwitch</Feature>
 			<Feature enabled="yes">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USB</Feature>
-			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="no">USBModem</Feature>
 			<Feature enabled="yes">VideoPlayback</Feature>
 			<Feature enabled="yes">VisualStudio</Feature>
 			<Feature enabled="yes">Activation</Feature>
@@ -108,7 +111,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/NAME</Key>
-								<Value>Gorstaks 11</Value>
+								<Value>Windows 11 Pro</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -140,7 +143,7 @@
 	<Execution>
 		<Add>
 			<Item type="Placeholder">
-				<Index>10</Index>
+				<Index>16</Index>
 			</Item>
 		</Add>
 		<Change></Change>
