@@ -17,39 +17,6 @@
 		<c>firstlogonanim 'First-logon animation'</c>
 		<c>hwsupport_telephony 'Telephony'</c>
 		<c>iscsi 'iSCSI Initiator'</c>
-		<c>langarabic 'Arabic'</c>
-		<c>langbulgarian 'Bulgarian'</c>
-		<c>langchineses 'Chinese Simplified'</c>
-		<c>langcroatian 'Croatian'</c>
-		<c>langczech 'Czech'</c>
-		<c>langdanish 'Danish'</c>
-		<c>langdutch 'Dutch'</c>
-		<c>langenglishgb 'English (GB)'</c>
-		<c>langestonian 'Estonian'</c>
-		<c>langfinnish 'Finnish'</c>
-		<c>langfrench 'French'</c>
-		<c>langfrenchcanadian 'French (Canadian)'</c>
-		<c>langgerman 'German'</c>
-		<c>langgreek 'Greek'</c>
-		<c>langhebrew 'Hebrew'</c>
-		<c>langhungarian 'Hungarian'</c>
-		<c>langitalian 'Italian'</c>
-		<c>langlatvian 'Latvian'</c>
-		<c>langlithuanian 'Lithuanian'</c>
-		<c>langnorwegian 'Norwegian'</c>
-		<c>langpolish 'Polish'</c>
-		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
-		<c>langportuguesept 'Portuguese'</c>
-		<c>langromanian 'Romanian'</c>
-		<c>langrussian 'Russian'</c>
-		<c>langserbian 'Serbian'</c>
-		<c>langslovak 'Slovak'</c>
-		<c>langslovenian 'Slovenian'</c>
-		<c>langspanish 'Spanish'</c>
-		<c>langswedish 'Swedish'</c>
-		<c>langthai 'Thai'</c>
-		<c>langturkish 'Turkish'</c>
-		<c>langukrainian 'Ukrainian'</c>
 		<c>manifests 'Windows Component Database'</c>
 		<c>offlinefiles 'Offline Files'</c>
 		<c>onedrive</c>
