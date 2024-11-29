@@ -1,22 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/17/2024 00:37:56</Date>
+	<Date>11/29/2024 01:27:03</Date>
 	<AppInfo>
-		<Version>2024.10.10089</Version>
+		<Version>2024.11.10169</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1 (en-US)</Host>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.2314 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.2033 (en-US)</Version>
-		<GUID>{310CD7F2-5073-4DE2-B2DB-C01AE45B55BE}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
+		<GUID>{4558E5F2-7D5C-49DB-ED8E-0A61AE9B6D2F}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>assembly.net '.NET assembly cache'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
 		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515 'File Explorer (Legacy)'</c>
-		<c>clipchamp.clipchamp</c>
 		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
@@ -111,45 +110,19 @@
 		<c>langvietnamese 'Vietnamese'</c>
 		<c>langwelsh 'Welsh'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
-		<c>mediaplayer 'Windows Media Player'</c>
-		<c>mediaplayer32 'Windows Media Player - 32 bit'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
-		<c>microsoft.bingnews 'Microsoft News'</c>
-		<c>microsoft.bingsearch 'Microsoft Bing Search'</c>
-		<c>microsoft.bingweather 'MSN Weather'</c>
 		<c>microsoft.ecapp 'Eye Control'</c>
-		<c>microsoft.gethelp 'Get Help'</c>
 		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
-		<c>microsoft.microsoftofficehub 'Microsoft 365 (Office)'</c>
-		<c>microsoft.microsoftsolitairecollection 'Solitaire &amp; Casual Games'</c>
-		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
-		<c>microsoft.outlookforwindows 'Outlook for Windows'</c>
-		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
-		<c>microsoft.sechealthui 'Windows Defender'</c>
-		<c>microsoft.todos 'Microsoft To Do'</c>
 		<c>microsoft.windows.assignedaccesslockapp 'Assigned Access Lock app'</c>
 		<c>microsoft.windows.contentdeliverymanager 'Content Delivery Manager'</c>
-		<c>microsoft.windows.devhome 'Dev Home'</c>
 		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
 		<c>microsoft.windows.parentalcontrols 'Microsoft Family Safety'</c>
 		<c>microsoft.windows.peopleexperiencehost 'Windows Shell Experience'</c>
-		<c>microsoft.windows.photos 'Microsoft Photos'</c>
 		<c>microsoft.windows.secureassessmentbrowser 'Take a Test'</c>
-		<c>microsoft.windowsalarms 'Windows Clock'</c>
-		<c>microsoft.windowscalculator 'Windows Calculator'</c>
-		<c>microsoft.windowscamera 'Windows Camera'</c>
-		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
-		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
-		<c>microsoft.windowsterminal 'Windows Terminal'</c>
-		<c>microsoft.yourphone 'Phone Link'</c>
-		<c>microsoft.zunemusic 'Windows Media Player'</c>
-		<c>microsoftcorporationii.quickassist 'Quick Assist'</c>
 		<c>microsoftwindows.client.aix 'Windows Copilot (Windows Feature Experience Pack)'</c>
-		<c>microsoftwindows.client.webexperience 'Windows Web Experience Pack'</c>
 		<c>mobilepc_location 'Location notifications'</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
-		<c>msteams 'Microsoft Teams'</c>
 		<c>multipointconnector 'MultiPoint Connector'</c>
 		<c>photoviewer32 'Photo Viewer - 32 bit'</c>
 		<c>printtopdf 'Print to PDF'</c>
@@ -178,11 +151,12 @@
 			<Feature enabled="yes">USBCamera</Feature>
 			<Feature enabled="yes">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Docker</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
 			<Feature enabled="yes">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
 			<Feature enabled="yes">Kaspersky</Feature>
-			<Feature enabled="yes">ManualSetup</Feature>
 			<Feature enabled="yes">OfficeSupport</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">Netflix</Feature>
@@ -192,6 +166,7 @@
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="yes">Printing</Feature>
 			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">RDPServer</Feature>
 			<Feature enabled="yes">SamsungSwitch</Feature>
 			<Feature enabled="yes">Scanning</Feature>
 			<Feature enabled="yes">ServicingStack</Feature>
@@ -217,12 +192,41 @@
 		</ComponentFeatures>
 		<MachineDrivers>
 			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
-		<Feature name="NetFX3~~~~">true</Feature>
+		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~~~0.0.1.0">false</Feature>
 		<Feature name="DirectPlay">true</Feature>
+		<Feature name="DirectX.Configuration.Database~~~~0.0.1.0">false</Feature>
+		<Feature name="Language.Handwriting~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="Language.OCR~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="Language.Speech~~~en-us~0.0.1.0">false</Feature>
+		<Feature name="Language.TextToSpeech~~~en-us~0.0.1.0">false</Feature>
 		<Feature name="LegacyComponents">true</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~~~0.0.1.0">false</Feature>
+		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
+		<Feature name="Edge.Webview2.Platform~~~~">false</Feature>
+		<Feature name="OpenSSH.Client~~~~0.0.1.0">false</Feature>
+		<Feature name="Print.Management.Console~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Athwnx~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Qualcomm.Qcamain10x64~~~~0.0.1.0">false</Feature>
+		<Feature name="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~~~0.0.1.0">false</Feature>
+		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows.Telnet.Client~~~~">false</Feature>
+		<Feature name="Windows.TFTP.Client~~~~">false</Feature>
+		<Feature name="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~~">false</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
+		<Feature name="Media.WindowsMediaPlayer~~~~0.0.12.0">false</Feature>
+		<Feature name="Windows.Client.ProjFS~~~~">false</Feature>
 	</Features>
 	<Packages>
 		<Options>
@@ -276,12 +280,12 @@
 		<Settings>
 			<TweakGroup name="DesktopTweaks">
 				<Tweak name="Explorer\NoPinningStoreToTaskbar">0</Tweak>
-				<Tweak name="Desktop\WallpaperStyle"></Tweak>
 				<Tweak name="InprocServer32\"></Tweak>
 				<Tweak name="NewStartPanel\{645FF040-5081-101B-9F08-00AA002F954E}">0</Tweak>
 				<Tweak name="Desktop\IconSize">32</Tweak>
 				<Tweak name="Winlogon\EnableGoodbye">0</Tweak>
 				<Tweak name="PushNotifications\NoCloudApplicationNotification">1</Tweak>
+				<Tweak name="Advanced\TaskbarSmallIcons">1</Tweak>
 				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
