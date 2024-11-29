@@ -199,6 +199,7 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
+                <Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
 		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
