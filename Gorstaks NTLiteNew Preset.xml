@@ -436,56 +436,22 @@
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
-				<Tweak name="AxInstSV\AxInstSV">4</Tweak>
-				<Tweak name="AppIDSvc\AppIDSvc">4</Tweak>
 				<Tweak name="BDESVC\BDESVC">4</Tweak>
-				<Tweak name="EFS\EFS">4</Tweak>
 				<Tweak name="gpsvc\gpsvc">4</Tweak>
-				<Tweak name="iphlpsvc\iphlpsvc">4</Tweak>
-				<Tweak name="CscService\CscService">4</Tweak>
-				<Tweak name="pla\pla">4</Tweak>
-				<Tweak name="PhoneSvc\PhoneSvc">4</Tweak>
-				<Tweak name="Spooler\Spooler">4</Tweak>
-				<Tweak name="RmSvc\RmSvc">4</Tweak>
-				<Tweak name="RetailDemo\RetailDemo">4</Tweak>
-				<Tweak name="wscsvc\wscsvc">4</Tweak>
-				<Tweak name="Sense\Sense">4</Tweak>
-				<Tweak name="SensorDataService\SensorDataService">4</Tweak>
-				<Tweak name="SensrSvc\SensrSvc">4</Tweak>
-				<Tweak name="SensorService\SensorService">4</Tweak>
+				<Tweak name="InstallService\InstallService">2</Tweak>
 				<Tweak name="LanmanServer\LanmanServer">4</Tweak>
-				<Tweak name="SSDPSRV\SSDPSRV">4</Tweak>
 				<Tweak name="OneSyncSvc\OneSyncSvc">4</Tweak>
-				<Tweak name="TapiSrv\TapiSrv">4</Tweak>
 				<Tweak name="UsoSvc\UsoSvc">4</Tweak>
-				<Tweak name="vds\vds">4</Tweak>
-				<Tweak name="VSS\VSS">4</Tweak>
 				<Tweak name="WaaSMedicSvc\WaaSMedicSvc">4</Tweak>
-				<Tweak name="webthreatdefsvc\webthreatdefsvc">4</Tweak>
-				<Tweak name="webthreatdefusersvc\webthreatdefusersvc">4</Tweak>
-				<Tweak name="WinDefend\WinDefend">4</Tweak>
-				<Tweak name="SDRSVC\SDRSVC">4</Tweak>
-				<Tweak name="EventLog\EventLog">4</Tweak>
-				<Tweak name="wisvc\wisvc">4</Tweak>
-				<Tweak name="TrustedInstaller\TrustedInstaller">4</Tweak>
-				<Tweak name="WpnService\WpnService">4</Tweak>
-				<Tweak name="WpnUserService\WpnUserService">3</Tweak>
 				<Tweak name="PushToInstall\PushToInstall">4</Tweak>
 				<Tweak name="WinRM\WinRM">4</Tweak>
-				<Tweak name="WSearch\WSearch">3</Tweak>
-				<Tweak name="SecurityHealthService\SecurityHealthService">4</Tweak>
 				<Tweak name="wuauserv\wuauserv">4</Tweak>
-				<Tweak name="ApxSvc\ApxSvc">4</Tweak>
 				<Tweak name="LanmanWorkstation\LanmanWorkstation">3</Tweak>
 			</TweakGroup>
 		</Services>
 		<ExtraServices>
 			<TweakGroup name="drivers">
 				<Tweak name="Beep\Beep">4</Tweak>
-				<Tweak name="CSC\CSC">4</Tweak>
-				<Tweak name="spaceport\spaceport">4</Tweak>
-				<Tweak name="Ramdisk\Ramdisk">4</Tweak>
-				<Tweak name="xinputhid\xinputhid">4</Tweak>
 			</TweakGroup>
 		</ExtraServices>
 		<ScheduledTasks></ScheduledTasks>
