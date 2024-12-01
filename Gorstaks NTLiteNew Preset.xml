@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>11/29/2024 01:27:03</Date>
+	<Date>11/30/2024 23:45:04</Date>
 	<AppInfo>
 		<Version>2024.11.10169</Version>
 		<Licensed>No</Licensed>
@@ -9,7 +9,7 @@
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
-		<GUID>{4558E5F2-7D5C-49DB-ED8E-0A61AE9B6D2F}</GUID>
+		<GUID>{01F4A5A2-C22D-8C39-7045-987A7D12F8FC}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>appv 'Application Virtualization (App-V)'</c>
@@ -199,7 +199,6 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
-                <Feature name="NetFX3~~~~">true</Feature>
 		<Feature name="Windows.Kernel.LA57~~~~0.0.1.0">false</Feature>
 		<Feature name="Windows.DirectoryServices.ADAM.Client.Content~~~~">false</Feature>
 		<Feature name="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~~~0.0.1.0">false</Feature>
@@ -279,43 +278,75 @@
 	</Unattended>
 	<Tweaks>
 		<Settings>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashControl\CrashDumpEnabled">3</Tweak>
+			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
 				<Tweak name="Explorer\NoPinningStoreToTaskbar">0</Tweak>
+				<Tweak name="WindowMetrics\MinAnimate">1</Tweak>
 				<Tweak name="InprocServer32\"></Tweak>
-				<Tweak name="NewStartPanel\{645FF040-5081-101B-9F08-00AA002F954E}">0</Tweak>
+				<Tweak name="Personalize\AppsUseLightTheme">1</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">1</Tweak>
 				<Tweak name="Desktop\IconSize">32</Tweak>
 				<Tweak name="Winlogon\EnableGoodbye">0</Tweak>
 				<Tweak name="PushNotifications\NoCloudApplicationNotification">1</Tweak>
+				<Tweak name="Search\SearchboxTaskbarMode">2</Tweak>
+				<Tweak name="DWM\ColorPrevalence">0</Tweak>
+				<Tweak name="System\DisableLogonBackgroundImage">1</Tweak>
+				<Tweak name="Advanced\TaskbarMn">0</Tweak>
+				<Tweak name="Advanced\MMTaskbarEnabled">0</Tweak>
+				<Tweak name="Advanced\TaskbarSi">0</Tweak>
 				<Tweak name="Advanced\TaskbarSmallIcons">1</Tweak>
 				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
+				<Tweak name="Keyboard\PrintScreenKeyForSnippingEnabled">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="OperationStatusManager\EnthusiastMode">1</Tweak>
+				<Tweak name="Explorer\NoCDBurning">1</Tweak>
+				<Tweak name="ControlPanel\AllItemsIconView">1</Tweak>
 				<Tweak name="Advanced\UseCompactMode">1</Tweak>
+				<Tweak name="Explorer\NoTrayItemsDisplay">1</Tweak>
+				<Tweak name="Advanced\DontUsePowerShellOnWinX">0</Tweak>
+				<Tweak name=".jpg\PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
+				<Tweak name="Explorer\HideClock">0</Tweak>
 				<Tweak name="Explorer\ShowDriveLettersFirst">4</Tweak>
+				<Tweak name="Explorer\ShowCloudFilesInQuickAccess">0</Tweak>
+				<Tweak name="Explorer\NoNetConnectDisconnect">0</Tweak>
 				<Tweak name="Advanced\ShowInfoTip">0</Tweak>
+				<Tweak name="Advanced\AutoCheckSelect">0</Tweak>
+				<Tweak name="Advanced\SharingWizardOn">1</Tweak>
 				<Tweak name="Advanced\HideDrivesWithNoMedia">1</Tweak>
+				<Tweak name="Advanced\HideFileExt">0</Tweak>
 				<Tweak name="Advanced\Hidden">1</Tweak>
+				<Tweak name="Advanced\ShowSuperHidden">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Network">
 				<Tweak name="Main\Isolation64Bit">1</Tweak>
 				<Tweak name="Main\Isolation">PMEM</Tweak>
+				<Tweak name="System\LocalAccountTokenFilterPolicy">0</Tweak>
 				<Tweak name="LanmanWorkstation\AllowInsecureGuestAuth">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerAndShutdown">
+				<Tweak name="System\ShutdownWithoutLogon">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Privacy">
 				<Tweak name="appointments\Value">Deny</Tweak>
 				<Tweak name="phoneCallHistory\Value">Deny</Tweak>
+				<Tweak name="webcam\Value">Allow</Tweak>
 				<Tweak name="contacts\Value">Deny</Tweak>
 				<Tweak name="appDiagnostics\Value">Deny</Tweak>
 				<Tweak name="documentsLibrary\Value">Deny</Tweak>
 				<Tweak name="email\Value">Deny</Tweak>
 				<Tweak name="broadFileSystemAccess\Value">Deny</Tweak>
+				<Tweak name="chat\Value">Deny</Tweak>
+				<Tweak name="microphone\Value">Allow</Tweak>
 				<Tweak name="userNotificationListener\Value">Deny</Tweak>
 				<Tweak name="phoneCall\Value">Deny</Tweak>
 				<Tweak name="picturesLibrary\Value">Deny</Tweak>
 				<Tweak name="radios\Value">Deny</Tweak>
 				<Tweak name="LooselyCoupled\Value">Deny</Tweak>
 				<Tweak name="userDataTasks\Value">Deny</Tweak>
+				<Tweak name="userAccountInformation\Value">Deny</Tweak>
 				<Tweak name="videosLibrary\Value">Deny</Tweak>
 				<Tweak name="Client\OptInOrOutPreference">0</Tweak>
 				<Tweak name="System\AllowExperimentation">0</Tweak>
@@ -323,11 +354,15 @@
 				<Tweak name="DataCollection\AllowTelemetry">7</Tweak>
 				<Tweak name="1.7\EnableAutocorrection">0</Tweak>
 				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="features\PaidWifi">1</Tweak>
+				<Tweak name="features\WiFiSenseOpen">1</Tweak>
 				<Tweak name="System\AllowClipboardHistory">0</Tweak>
 				<Tweak name="CloudContent\DisableCloudOptimizedContent">1</Tweak>
 				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
 				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
 				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="System\DontDisplayLastUserName">1</Tweak>
+				<Tweak name="System\DontDisplayLockedUserId">3</Tweak>
 				<Tweak name="AppCompat\RequireIntegrityActivationAuthenticationLevel">1</Tweak>
 				<Tweak name="1.7\EnableSpellchecking">0</Tweak>
 				<Tweak name="SmartGlass\UserAuthPolicy">0</Tweak>
@@ -343,11 +378,14 @@
 				<Tweak name="Settings\AcceptedPrivacyPolicy">0</Tweak>
 				<Tweak name="ContentDeliveryManager\OemPreInstalledAppsEnabled">0</Tweak>
 				<Tweak name="AppCompat\DisablePCA">1</Tweak>
+				<Tweak name="Packages\InstallLocation">0</Tweak>
 				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
 				<Tweak name="SearchSettings\IsDeviceSearchHistoryEnabled">0</Tweak>
 				<Tweak name="TIPC\Enabled">0</Tweak>
 				<Tweak name="System\EnableCdp">0</Tweak>
+				<Tweak name="Explorer\ShowFrequent">0</Tweak>
 				<Tweak name="AccountNotifications\EnableAccountNotifications">0</Tweak>
+				<Tweak name="Explorer\ShowRecent">0</Tweak>
 				<Tweak name="UserProfileEngagement\ScoobeSystemSettingEnabled">0</Tweak>
 				<Tweak name="FlipAhead\FPEnabled">1</Tweak>
 				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
@@ -356,11 +394,18 @@
 				<Tweak name="WindowsAI\DisableAIDataAnalysis">1</Tweak>
 				<Tweak name="CloudContent\DisableWindowsSpotlightFeatures">1</Tweak>
 			</TweakGroup>
+			<TweakGroup name="StartTweaks">
+				<Tweak name="Start\HideAppList">0</Tweak>
+				<Tweak name="Start\HideFrequentlyUsedApps">1</Tweak>
+				<Tweak name="Explorer\HideRecentlyAddedApps">1</Tweak>
+				<Tweak name="Explorer\ShowOrHideMostUsedApps">0</Tweak>
+			</TweakGroup>
 			<TweakGroup name="System">
 				<Tweak name="BitLocker\PreventDeviceEncryption">1</Tweak>
-				<Tweak name="WindowsUpdate\AllowTemporaryEnterpriseFeatureControl">1</Tweak>
-				<Tweak name="System\HideFastUserSwitching">0</Tweak>
+				<Tweak name="WindowsUpdate\AllowTemporaryEnterpriseFeatureControl">0</Tweak>
+				<Tweak name="System\HideFastUserSwitching">1</Tweak>
 				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+				<Tweak name="System\EnableLinkedConnections">0</Tweak>
 				<Tweak name="OOBE\BypassNRO">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdateTasks">
@@ -372,35 +417,75 @@
 				<Tweak name="OutlookUpdate\OutlookUpdate">0</Tweak>
 				<Tweak name="TFLUpdate\TFLUpdate">0</Tweak>
 			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\ConsentPromptBehaviorAdmin">5</Tweak>
+				<Tweak name="System\ConsentPromptBehaviorUser">0</Tweak>
+			</TweakGroup>
 			<TweakGroup name="WindowsUpdate">
 				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
 				<Tweak name="Preferences\ModelDownloadAllowed">0</Tweak>
 				<Tweak name="Device Metadata\PreventDeviceMetadataFromNetwork">1</Tweak>
+				<Tweak name="WindowsUpdate\DisableWUfBSafeguards">1</Tweak>
 				<Tweak name="Settings\IsContinuousInnovationOptedIn">0</Tweak>
 				<Tweak name="7971f918-a847-4430-9279-4a52d1efe18d\RegisterWithAU">1</Tweak>
 				<Tweak name="Settings\IsExpedited">0</Tweak>
 				<Tweak name="Settings\RestartNotificationsAllowed2">1</Tweak>
 				<Tweak name="WindowsStore\AutoDownload">4</Tweak>
+				<Tweak name="AU\NoAutoUpdate">1</Tweak>
 			</TweakGroup>
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
+				<Tweak name="AxInstSV\AxInstSV">4</Tweak>
+				<Tweak name="AppIDSvc\AppIDSvc">4</Tweak>
 				<Tweak name="BDESVC\BDESVC">4</Tweak>
+				<Tweak name="EFS\EFS">4</Tweak>
 				<Tweak name="gpsvc\gpsvc">4</Tweak>
-				<Tweak name="InstallService\InstallService">2</Tweak>
+				<Tweak name="iphlpsvc\iphlpsvc">4</Tweak>
+				<Tweak name="CscService\CscService">4</Tweak>
+				<Tweak name="pla\pla">4</Tweak>
+				<Tweak name="PhoneSvc\PhoneSvc">4</Tweak>
+				<Tweak name="Spooler\Spooler">4</Tweak>
+				<Tweak name="RmSvc\RmSvc">4</Tweak>
+				<Tweak name="RetailDemo\RetailDemo">4</Tweak>
+				<Tweak name="wscsvc\wscsvc">4</Tweak>
+				<Tweak name="Sense\Sense">4</Tweak>
+				<Tweak name="SensorDataService\SensorDataService">4</Tweak>
+				<Tweak name="SensrSvc\SensrSvc">4</Tweak>
+				<Tweak name="SensorService\SensorService">4</Tweak>
 				<Tweak name="LanmanServer\LanmanServer">4</Tweak>
+				<Tweak name="SSDPSRV\SSDPSRV">4</Tweak>
 				<Tweak name="OneSyncSvc\OneSyncSvc">4</Tweak>
+				<Tweak name="TapiSrv\TapiSrv">4</Tweak>
 				<Tweak name="UsoSvc\UsoSvc">4</Tweak>
+				<Tweak name="vds\vds">4</Tweak>
+				<Tweak name="VSS\VSS">4</Tweak>
 				<Tweak name="WaaSMedicSvc\WaaSMedicSvc">4</Tweak>
+				<Tweak name="webthreatdefsvc\webthreatdefsvc">4</Tweak>
+				<Tweak name="webthreatdefusersvc\webthreatdefusersvc">4</Tweak>
+				<Tweak name="WinDefend\WinDefend">4</Tweak>
+				<Tweak name="SDRSVC\SDRSVC">4</Tweak>
+				<Tweak name="EventLog\EventLog">4</Tweak>
+				<Tweak name="wisvc\wisvc">4</Tweak>
+				<Tweak name="TrustedInstaller\TrustedInstaller">4</Tweak>
+				<Tweak name="WpnService\WpnService">4</Tweak>
+				<Tweak name="WpnUserService\WpnUserService">3</Tweak>
 				<Tweak name="PushToInstall\PushToInstall">4</Tweak>
 				<Tweak name="WinRM\WinRM">4</Tweak>
+				<Tweak name="WSearch\WSearch">3</Tweak>
+				<Tweak name="SecurityHealthService\SecurityHealthService">4</Tweak>
 				<Tweak name="wuauserv\wuauserv">4</Tweak>
+				<Tweak name="ApxSvc\ApxSvc">4</Tweak>
 				<Tweak name="LanmanWorkstation\LanmanWorkstation">3</Tweak>
 			</TweakGroup>
 		</Services>
 		<ExtraServices>
 			<TweakGroup name="drivers">
 				<Tweak name="Beep\Beep">4</Tweak>
+				<Tweak name="CSC\CSC">4</Tweak>
+				<Tweak name="spaceport\spaceport">4</Tweak>
+				<Tweak name="Ramdisk\Ramdisk">4</Tweak>
+				<Tweak name="xinputhid\xinputhid">4</Tweak>
 			</TweakGroup>
 		</ExtraServices>
 		<ScheduledTasks></ScheduledTasks>
