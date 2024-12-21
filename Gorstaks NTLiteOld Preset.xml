@@ -12,7 +12,6 @@
 		<GUID>{7C2D8796-AA3E-422B-B9F2-340846D6AF74}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>devicesync 'Microsoft Sync Framework'</c>
 		<c>driver_xinputhid.inf</c>
 		<c>firstlogonanim 'First-logon animation'</c>
 		<c>hwsupport_telephony 'Telephony'</c>
@@ -20,12 +19,10 @@
 		<c>manifests 'Windows Component Database'</c>
 		<c>offlinefiles 'Offline Files'</c>
 		<c>onedrive</c>
-		<c>onesyncsvc 'Sync Host'</c>
 		<c>optionalfeatures 'Optional Features'</c>
 		<c>phonesvc 'Phone Service'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
 		<c>sfc 'System File Check (SFC)'</c>
-		<c>synccenter 'Sync Center'</c>
 		<c>tempcache 'Cache and temp files'</c>
 		<c>winre 'Windows Recovery'</c>
 		<c>winsxs 'Windows Component Store (WinSxS)'</c>

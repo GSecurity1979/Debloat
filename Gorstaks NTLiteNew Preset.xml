@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>12/12/2024 06:08:25</Date>
+	<Date>12/21/2024 00:45:02</Date>
 	<AppInfo>
-		<Version>2024.12.10210</Version>
+		<Version>2024.12.10221</Version>
 		<Licensed>No</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1 (en-US)</Host>
+		<Host>Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.2605 (en-US)</Host>
 	</AppInfo>
 	<ImageInfo>
-		<Version mode="offline">Windows 11 IoTEnterpriseS 24H2 x64 - 10.0.26100.1742 (en-US)</Version>
-		<GUID>{5350E75A-866A-494D-B53E-E8ACA1103BB8}</GUID>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1 (en-US)</Version>
+		<GUID>{F49591CA-0D65-36AD-2C6E-28C054445084}</GUID>
 	</ImageInfo>
 	<RemoveComponents AppRemovalMode="DISM">
 		<c>appv 'Application Virtualization (App-V)'</c>
@@ -108,7 +108,6 @@
 		<c>langvalencian 'Valencian'</c>
 		<c>langvietnamese 'Vietnamese'</c>
 		<c>langwelsh 'Welsh'</c>
-		<c>lxss 'Windows Subsystem for Linux'</c>
 		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
 		<c>mediaplayernetworksharing32 'WMP Network Sharing Service - 32 bit'</c>
@@ -130,7 +129,6 @@
 		<c>rdpclient32 'Remote Desktop Client - 32 bit'</c>
 		<c>remoteactivex32 'Remote Desktop Services ActiveX Client - 32 bit'</c>
 		<c>remoteassistance 'Remote Assistance'</c>
-		<c>remoteportredirector 'Remote Desktop Services Port Redirector'</c>
 		<c>sharemediacpl 'Share Media Control Panel'</c>
 		<c>simpletcp 'Simple TCP/IP services'</c>
 		<c>smbdirect 'SMB Direct (RDMA)'</c>
@@ -151,8 +149,8 @@
 			<Feature enabled="yes">USBCamera</Feature>
 			<Feature enabled="yes">CapFrameX</Feature>
 			<Feature enabled="yes">Discord</Feature>
-			<Feature enabled="no">Docker</Feature>
-			<Feature enabled="no">Easy Anti-Cheat</Feature>
+			<Feature enabled="yes">Docker</Feature>
+			<Feature enabled="no">EA Anti-Cheat</Feature>
 			<Feature enabled="yes">FileSharing</Feature>
 			<Feature enabled="yes">Hyper-V</Feature>
 			<Feature enabled="yes">iCloud</Feature>
@@ -167,7 +165,7 @@
 			<Feature enabled="yes">OOBE</Feature>
 			<Feature enabled="yes">Printing</Feature>
 			<Feature enabled="yes">Recommended-All</Feature>
-			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">RDPServer</Feature>
 			<Feature enabled="yes">SamsungSwitch</Feature>
 			<Feature enabled="yes">Scanning</Feature>
 			<Feature enabled="yes">ServicingStack</Feature>
@@ -235,6 +233,10 @@
 			<OptimizeAppX>false</OptimizeAppX>
 			<UpdateBootManager>false</UpdateBootManager>
 		</Options>
+		<File>D:\NTLite\Cache\Updates\11.24H2.x64\updateplatform.amd64fre_d3f6f8300855e56b8ed00da6dac55a3c4cbf8c20.exe</File>
+		<File>D:\NTLite\Cache\Updates\11.24H2.x64\mpam-fe.exe</File>
+		<File>D:\NTLite\Cache\Updates\11.24H2.x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</File>
+		<File>D:\NTLite\Cache\Updates\11.24H2.x64\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle</File>
 	</Packages>
 	<Commands>
 		<PostUpdates>
@@ -264,7 +266,7 @@
 						<InstallFrom>
 							<MetaData>
 								<Key>/IMAGE/INDEX</Key>
-								<Value>2</Value>
+								<Value>1</Value>
 							</MetaData>
 						</InstallFrom>
 					</OSImage>
@@ -473,9 +475,9 @@
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
 				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Notifications\DisableNotifications">1</Tweak>
 				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
-				<Tweak name="Features\TamperProtection">0</Tweak>
-				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+				<Tweak name="Features\TamperProtection">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdate">
 				<Tweak name="DriverSearching\SearchOrderConfig">0</Tweak>
@@ -497,17 +499,8 @@
 		</Settings>
 		<Services>
 			<TweakGroup name="services">
-				<Tweak name="BDESVC\BDESVC">4</Tweak>
 				<Tweak name="gpsvc\gpsvc">4</Tweak>
-				<Tweak name="InstallService\InstallService">2</Tweak>
-				<Tweak name="LanmanServer\LanmanServer">4</Tweak>
-				<Tweak name="OneSyncSvc\OneSyncSvc">4</Tweak>
-				<Tweak name="UsoSvc\UsoSvc">4</Tweak>
-				<Tweak name="WaaSMedicSvc\WaaSMedicSvc">4</Tweak>
-				<Tweak name="PushToInstall\PushToInstall">4</Tweak>
-				<Tweak name="WinRM\WinRM">4</Tweak>
 				<Tweak name="wuauserv\wuauserv">4</Tweak>
-				<Tweak name="LanmanWorkstation\LanmanWorkstation">3</Tweak>
 			</TweakGroup>
 		</Services>
 		<ExtraServices>
@@ -531,5 +524,10 @@
 		<Change></Change>
 		<Add></Add>
 	</Execution>
-	<Registry></Registry>
+	<Registry>
+		<File>D:\Util\HKCR.reg</File>
+		<File>D:\Util\HKCU.reg</File>
+		<File>D:\Util\HKLM.reg</File>
+		<File>D:\Util\HKU.reg</File>
+	</Registry>
 </Preset>
